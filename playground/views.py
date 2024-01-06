@@ -7,5 +7,5 @@ from django.http import HttpResponse
 # In some frameworks this is called action
 
 def say_hello(request):
-    # return HttpResponse('Hello World')
-    return render(request, 'hello.html', {'name': 'Mehul'}) 
+    return HttpResponse('Hello World')
+    # return render(request, 'hello.html', {'name': 'Mehul'}) 
